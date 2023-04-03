@@ -5,7 +5,6 @@ import {
   Node,
 } from "@typescript-eslint/types/dist/generated/ast-spec";
 import { ESLintUtils } from "@typescript-eslint/utils";
-import { log } from "console";
 
 const isMultiline = (node: Node) => node.loc.start.line <= node.loc.end.line;
 
@@ -33,7 +32,6 @@ const rule = ESLintUtils.RuleCreator.withoutDocs({
   create(ctx) {
     return {
       JSXElement(node) {
-        log(node);
         if (
           !isMultiline(node) ||
           !isJsxElement(node.parent) ||
