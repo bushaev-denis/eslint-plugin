@@ -1,17 +1,32 @@
 {
   "name": "@dez64ru/eslint-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint rules and plugins",
   "main": "dist/index.js",
   "scripts": {
+    "typecheck": "tsc --noEmit",
     "build": "rm -rf dist && tsc -p tsconfig.prod.json"
   },
   "files": [
     "dist",
     "readme.md",
+    "docs",
     "package.json"
   ],
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dez64ru/eslint-plugin.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "typescript",
+    "react",
+    "nextjs",
+    "next.js",
+    "electron"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

@@ -5,7 +5,9 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
   ],
-  rules: {
-    "react/react-in-jsx-scope": "off",
+  overrides: {
+    rules: {
+      "react/react-in-jsx-scope": "off",
+    },
   },
 };
