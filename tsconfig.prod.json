@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "types": ["node"]
+    },
+    "swc": true
+  },
+  "exclude": ["**/__tests__/"]
+}
