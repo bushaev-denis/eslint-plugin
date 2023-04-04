@@ -58,3 +58,4 @@
 ## Rules
 
 - [jsx-multiline-padding](/docs/jsx-multiline-paddings.md)
+- [prop-multiline-paddings](/docs/prop-multiline-paddings.md)
