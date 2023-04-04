@@ -9,12 +9,15 @@
 - [eslint:recommended](https://eslint.org/docs/latest/use/configure/configuration-files#using-eslintrecommended)
 - [@typescript-eslint/eslint-recommended](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended.ts)
 - [@typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/recommended.ts)
-- [import/recommended]()
-- [import/typescript]()
+- [import/recommended](https://github.com/import-js/eslint-plugin-import#helpful-warnings)
+- [import/typescript](https://github.com/import-js/eslint-plugin-import#helpful-warnings)
 
 ### Rules
 
 - [jsx-multiline-paddings](/docs/jsx-multiline-paddings.md): `error`
+- [prop-multiline-paddings](/docs/prop-multiline-paddings.md): `error`
+- ["@typescript-eslint/no-empty-interface](/docs/jsx-multiline-paddings.md): `off`
+- [padding-line-between-statements](https://eslint.org/docs/latest/rules/padding-line-between-statements): `adds paddings before return, between all multiline expressions`
 </details>
 
 <details><summary>React</summary>
@@ -49,7 +52,7 @@
 ### Extends
 
 - React
-- [plugin:import/electron](#!)
+- [plugin:import/electron](https://github.com/import-js/eslint-plugin-import#helpful-warnings)
 
 ### Rules
 
