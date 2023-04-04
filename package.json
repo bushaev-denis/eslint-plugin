@@ -1,6 +1,6 @@
 {
   "name": "@dez64ru/eslint-plugin",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Eslint rules and plugins",
   "main": "dist/index.js",
   "scripts": {
