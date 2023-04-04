@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     "@dez64ru/jsx-multiline-paddings": "error",
     "@dez64ru/prop-multiline-paddings": "error",
+    "@typescript-eslint/no-empty-interface": "off",
   },
 };
